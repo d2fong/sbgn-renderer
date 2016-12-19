@@ -39,7 +39,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "cytoscape": "https://github.com/iVis-at-Bilkent/cytoscape.js.git#v2.7.12",
+    "cytoscape": "../../cytoscape-ecosystem/modified/",
     "extend": "^3.0.0",
     "lodash.defaultsdeep": "^4.6.0"
   }
