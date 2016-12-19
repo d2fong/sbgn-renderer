@@ -7,7 +7,7 @@ var config = {
     'macromolecule': true,
     'simple chemical': true,
     'unspecified entity': true,
-    'necessary stimulation': true,
+    'necessary-stimulation': true,
     'process': true,
     'uncertain process': true,
     'omitted process': true,

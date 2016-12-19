@@ -1,4 +1,4 @@
-let Cytoscape = require('cytoscape-for-sbgnviz');
+let Cytoscape = require('cytoscape');
 let defaultsDeep = require('lodash.defaultsdeep');
 
 let augment = require('./sbgnRenderer/augmentCytoscape');

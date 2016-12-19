@@ -46,15 +46,15 @@ module.exports = function (cytoscape) {
   cyStyleProperties.types.lineStyle.enums.push('consumption');
   cyStyleProperties.types.lineStyle.enums.push('production');
 
-  cyStyleProperties.types.arrowShape.enums.push('necessary stimulation');
+  cyStyleProperties.types.arrowShape.enums.push('necessary-stimulation');
 
-  $$.sbgn.registerSbgnArrowShapes = function () {
-    cyBaseArrowShapes['necessary stimulation'] = extend({}, cyBaseArrowShapes['triangle-tee']);
-    cyBaseArrowShapes['necessary stimulation'].pointsTee = [
-      -0.18, -0.43,
-      0.18, -0.43
-    ];
-  };
+  // $$.sbgn.registerSbgnArrowShapes = function () {
+  //   cyBaseArrowShapes['necessary stimulation'] = extend({}, cyBaseArrowShapes['triangle-tee']);
+  //   cyBaseArrowShapes['necessary stimulation'].pointsTee = [
+  //     -0.18, -0.43,
+  //     0.18, -0.43
+  //   ];
+  // };
 
   $$.sbgn.registerSbgnNodeShapes = function () {
     cyShapes['process'] = {

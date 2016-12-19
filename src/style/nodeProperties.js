@@ -34,7 +34,7 @@ nodeProperties.getCyShape = function(cyNode) {
 nodeProperties.getCyArrowShape = function(cyNode) {
   var _class = cyNode.data('class');
   if (_class == 'necessary stimulation') {
-    return 'necessary stimulation';
+    return 'necessary-stimulation';
   }
   if (_class == 'inhibition') {
     return 'tee';

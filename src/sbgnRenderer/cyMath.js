@@ -1,3 +1,3 @@
-var cytoscape = require('cytoscape-for-sbgnviz');
+var cytoscape = require('cytoscape');
 
 module.exports = cytoscape.math;
